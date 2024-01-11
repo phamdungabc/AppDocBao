@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add"
+        android:title="Thêm mới nhân viên"
+        app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/it1"
+            android:title="Sắp xếp tăng dần" >
+            <menu>
+                <item
+                    android:id="@+id/tangtheoten"
+                    android:title="Theo Tên" />
+
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/it2"
+            android:title="Sắp xếp giảm dần" >
+            <menu
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <item
+                    android:id="@+id/giamtheoten"
+                    android:title="Theo tên" />
+
+            </menu>
+        </item>
+</menu>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quenmkMainActivity">
+
+    <Button
+        android:id="@+id/btnpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="163dp"
+        android:text="lấy mật khẩu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etusergmail" />
+
+    <EditText
+        android:id="@+id/etusergmail"
+        android:layout_width="333dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="62dp"
+        android:ems="10"
+        android:hint="Gmail"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btnpass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Nhập gmail đã đăng kí rồi ấn nút lấy mật khẩu sẽ có một tin nhắn gửi về gmail của bạn"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/passcancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="167dp"
+        android:text="CANCLE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnpass" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

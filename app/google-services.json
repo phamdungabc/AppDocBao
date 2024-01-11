@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "808817580815",
+    "project_id": "app-doc-bao-8f4e7",
+    "storage_bucket": "app-doc-bao-8f4e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808817580815:android:932e97211a101e449d3c7a",
+        "android_client_info": {
+          "package_name": "com.example.appdocbao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808817580815-6ckk4q8assjpn9cvu3hkk1550t4s68oc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe6xAkkBCFxAy89VkYva6HR1I_OoORiRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808817580815-6ckk4q8assjpn9cvu3hkk1550t4s68oc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
